@@ -1,8 +1,8 @@
-defmodule OvcsVmsSystemRpi4.MixProject do
+defmodule OvcsRosbridgeSystemRpi4.MixProject do
   use Mix.Project
 
   @github_organization "Spin42"
-  @app :ovcs_vms_system_rpi4
+  @app :ovcs_rosbridge_system_rpi4
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
